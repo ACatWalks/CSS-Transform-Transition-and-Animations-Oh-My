@@ -1,1 +1,57 @@
-
+button{
+    background-color: ghostwhite;
+    transition: 2s;
+    color: black;
+}
+button:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+.caption{
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+.caption_overlay_title{
+    position: absolute;
+    bottom: 100px;
+    z-index: 1;
+}
+.caption img{
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.caption_overlay{
+   transition: .35s
+}
+.caption_overlay:hover{
+    position: relative;
+    bottom: 555px;
+}
+/*.caption_overlay_title{
+    margin: 0;
+    padding: 0 0 12px;
+    transform: translateY(calc(-100% -10px));
+    transition: transform .35s ease-out;
+}
+.caption:hover .caption_overlay_title{
+    transform: translateY(0);
+}
+.caption::before{
+    content:' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    transition: background .35s ease-out;
+}
+.caption:hover::before{
+    background: rgba(0,0,0,0.5);
+}
+.caption{
+    transform: translateZ(0);
+}*/
